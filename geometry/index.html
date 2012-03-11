@@ -1,0 +1,25 @@
+<!DOCTYPE HTML>
+<html>
+  <head>
+    <title>Geometry Fun!</title>
+    <script src="http://code.jquery.com/jquery-latest.js"></script>
+    <script type="text/javascript" src="js/geometry.js"></script>
+    <script type="text/javascript" src="js/canvas.js"></script>
+    <script type="text/javascript" src="js/main.js"></script>
+    <style type="text/css">
+      canvas {
+        border-width: 1px;
+        border-style: solid;
+        border-color: black;
+      }
+    </style>
+  </head>
+  <body>
+    <canvas id="draw" width="300" height="300"></canvas><br />
+    <label for="x">X: </label><input type="number" max="200" id="x" value="10"/><br />
+    <label for="y">Y: </label><input type="number" max="200" id="y" value="10"/><br />
+    <label for="size">Size: </label><input type="number" max="200" id="size" value="50"/><br />
+    <p>The length of the red line is: <span id="red"></span> pixels.</p>
+
+  </body>
+</html>
