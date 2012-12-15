@@ -16,7 +16,8 @@ To get started:
 ---------------
 
 0. Fork the repository.
-1. In the project you want to work on, open the qunit.html file.
+1. In the project you want to work on, open the qunit.html file in a browser. 
+   You will see lots of failures.
 2. Find the file you will need to edit. (Hint: it has FIXME statements inside)
 3. Implement the code you will need to get the tests to pass.
 4. Ensure all the tests are passing.
